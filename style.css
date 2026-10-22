@@ -831,6 +831,35 @@ img { display: block; max-width: 100%; }
   box-shadow: 0 8px 28px rgba(37,211,102,0.4);
 }
 
+.event-contact {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(201,168,76,0.1);
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.event-contact i {
+  color: var(--gold);
+  font-size: 0.9rem;
+}
+
+.event-contact a {
+  color: var(--gold-light);
+  text-decoration: none;
+  transition: color var(--transition);
+  font-weight: 500;
+}
+
+.event-contact a:hover {
+  color: var(--gold);
+  text-decoration: underline;
+}
+
 /* ═══════════════════════════════════════════════════════
    RSVP
 ══════════════════════════════════════════════════════════ */
